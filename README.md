@@ -17,13 +17,13 @@
 <tr>
 <td align="center" width="50%">
 
-**"A brown hen scratching the dirt and pecking at the ground to hunt for worms."**
+**"A Pomeranian dog chasing a soccer ball across a lawn."**
 <br><sub>Original Meta FPS: 24 → PhyFPS: 35.8</sub>
 <br><img src="docs/static/videos/pair_01.gif" width="100%">
 </td>
 <td align="center" width="50%">
 
-**"A frog leaping to snap up an ant."**
+**"A snake slithering across polished wooden floorboards."**
 <br><sub>Original Meta FPS: 24 → PhyFPS: 60.2</sub>
 <br><img src="docs/static/videos/pair_02.gif" width="100%">
 </td>
@@ -31,7 +31,7 @@
 <tr>
 <td align="center" colspan="2">
 
-**"A panning shot following a yellow taxi driving down the street."**
+**"Thick fog rolling over a mountain range like ocean waves."**
 <br><sub>Original Meta FPS: 16 → PhyFPS: 44.9</sub>
 <br><img src="docs/static/videos/pair_03.gif" width="100%">
 </td>
