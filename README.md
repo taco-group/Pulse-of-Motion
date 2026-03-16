@@ -31,7 +31,7 @@
 <tr>
 <td align="center" colspan="2">
 
-**"Thick fog rolling over a mountain range like ocean waves."**
+**"A detailed view of the churning white wake trailing behind a large ship."**
 <br><sub>Original Meta FPS: 16 → PhyFPS: 44.9</sub>
 <br><img src="docs/static/videos/pair_03.gif" width="100%">
 </td>
