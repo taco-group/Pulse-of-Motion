@@ -1,10 +1,10 @@
-# Visual Chronometer: Measuring Physical Frame Rate from Visual Dynamics
+# The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics
 
 <p align="center">
   <a href="#"><b>Paper</b></a> &nbsp;|&nbsp;
-  <a href="https://xiangbogaobarry.github.io/Visual_Chronometer"><b>Project Page</b></a> &nbsp;|&nbsp;
-  <a href="https://huggingface.co/xiangbog/Visual_Chronometer"><b>Model Weights</b></a> &nbsp;|&nbsp;
-  <a href="#phyfps-bench-gen"><b>PhyFPS-Bench-Gen</b></a>
+  <a href="https://xiangbogaobarry.github.io/Pulse-of-Motion"><b>Project Page</b></a> &nbsp;|&nbsp;
+  <a href="https://www.pulse-of-motion-leaderboard.com/"><b>Leaderboard</b></a> &nbsp;|&nbsp;
+  <a href="https://huggingface.co/xiangbog/Pulse-of-Motion"><b>Model Weights</b></a> &nbsp;|&nbsp;
 </p>
 
 > *"Not only do we measure the movement by the time, but also the time by the movement, because they define each other."* — Aristotle, *Physics*
@@ -52,7 +52,10 @@ pip install -r requirements.txt
 
 ## Model Weights
 
-The checkpoint is **automatically downloaded** from HuggingFace when you first run inference. No manual download is needed.
+The released checkpoint is provided **for demo and leaderboard reproduction purposes only**.  
+Please note that this checkpoint is **not identical to our strongest internal model**, which is not fully released at this time.
+
+The checkpoint is **automatically downloaded** from Hugging Face when you first run inference, so no manual download is required.
 
 Alternatively, you can download it manually:
 
@@ -61,6 +64,8 @@ Alternatively, you can download it manually:
 | VC-Common | 10–60 FPS | [vc_common_10_60fps.ckpt](https://huggingface.co/xiangbog/Visual_Chronometer) |
 
 Place the file in `inference/ckpts/`.
+
+If you are interested in accessing the best-performing model, please contact **xiangbog@tamu.edu** and briefly explain your intended use in the email.
 
 ## Quick Start
 
@@ -122,12 +127,17 @@ python predict.py --video_dir ../generated/ --stride 4 --output_csv results.csv
 ## Citation
 
 ```bibtex
-@article{gao2026visual_chronometer,
+@article{gao2026pulse,
   title={The Pulse of Motion: Measuring Physical Frame Rate from Visual Dynamics},
   author={Gao, Xiangbo and Wu, Mingyang and Yang, Siyuan and Yu, Jiongze and Taghavi, Pardis and Lin, Fangzhou and Tu, Zhengzhong},
+  journal={arXiv preprint arXiv:2603.14375},
   year={2026}
 }
 ```
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=taco-group/Visual_Chronometer&type=Date)](https://www.star-history.com/#taco-group/Pulse-of-Motion&Date)
 
 ## License
 
